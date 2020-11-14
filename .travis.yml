@@ -18,8 +18,8 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
   # take those images and push them to docker hub
-  - docker push malves92/miulti-client
-  - docker push malves92/miulti-nginx
-  - docker push malves92/miulti-server
-  - docker push malves92/miulti-worker
+  - docker push malves92/multi-client
+  - docker push malves92/multi-nginx
+  - docker push malves92/multi-server
+  - docker push malves92/multi-worker
 
