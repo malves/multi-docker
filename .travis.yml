@@ -23,3 +23,5 @@ after_success:
   - docker push malves92/multi-server
   - docker push malves92/multi-worker
 
+#deploy:
+#   - ...
